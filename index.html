@@ -459,11 +459,11 @@
    CONFIGURACIÓN — esto es lo primero que debes editar
    ========================================================================= */
 const CONFIG = {
-  whatsappNumber: "51999999999", // <-- TU NÚMERO con código de país, sin + ni espacios
+  whatsappNumber: "51935044834", // <-- TU NÚMERO con código de país, sin + ni espacios
   whatsappMessageCatalogo: "Hola, quisiera ver el catálogo de mochilas 🎒",
   // Cuando despliegues el backend de Google Apps Script (ver guía adjunta),
   // pega aquí la URL que te entrega "Implementar > Aplicación web":
-  appsScriptUrl: "" // ej: "https://script.google.com/macros/s/AKfycb.../exec"
+  appsScriptUrl: "https://script.google.com/macros/s/AKfycbz9kzoIDx09cil4UynEjI0YTOtD_uA2mt1DBC4eNXZEdwLtANbk6w_skN77GofpazTI/exec" // ej: "https://script.google.com/macros/s/AKfycb.../exec"
 };
 
 /* =========================================================================
@@ -935,8 +935,7 @@ openCheckout = function(){
 };
 
 setWhatsappLinks();
-renderCatalog();
-// cargarProductosDesdeSheet(); // <-- descomenta esta línea cuando tengas tu Apps Script listo
+cargarProductosDesdeSheet(); // <-- descomenta esta línea cuando tengas tu Apps Script listo
 </script>
 </body>
 </html>
